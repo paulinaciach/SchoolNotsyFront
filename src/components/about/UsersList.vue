@@ -21,9 +21,9 @@
 </template>
 
 <script>
-const imgLink = require('@/assets/images/Darka.png')
-const imgLink2 = require('@/assets/images/Paula.png')
-const imgLink3 = require('@/assets/images/Natka.png')
+const imgLink = "https://storageschoolnotes.blob.core.windows.net/assets/Darka.png"
+const imgLink2 = "https://storageschoolnotes.blob.core.windows.net/assets/Natka.png"
+const imgLink3 = "https://storageschoolnotes.blob.core.windows.net/assets/Paula.png"
 
  export default {
   name: "Slider",

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-const imgLink = require('@/assets/images/school3.jpg')
+const imgLink = "https://storageschoolnotes.blob.core.windows.net/assets/school3.jpg"
 export default {
   data(){
     return{
