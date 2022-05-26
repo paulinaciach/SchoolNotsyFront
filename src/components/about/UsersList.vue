@@ -5,7 +5,7 @@
     
   <li class="liCustom3">
     <strong> Witryna została przygotowany w ramach projektu zaliczeniowego. 
-      Została ona wykonana przez Studentki z Grupy N22-31. Semestr letni 2021. </strong>
+      Została ona wykonana przez Studentki z Grupy N32-31. Semestr letni 2022. </strong>
   </li>
 </div>
 <br>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <li class="liCustom1">
-      <strong> Wybierz kategorię: </strong>
+      <strong> Kategoria: </strong>
       <input
         type="radio"
         id="matematyka"
@@ -232,8 +232,8 @@ export default {
   margin: 1rem auto;
   padding: 1rem;
   text-align: left;
-  width: 100%;
-  max-width: 100%;
+  width: 70%;
+  max-width: 70%;
   list-style-type: none;
   font-weight: lighter;
 }
@@ -243,8 +243,8 @@ export default {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   text-align: left;
-  width: 50%;
-  max-width: 50%;
+  width: 70%;
+  max-width: 70%;
   list-style-type: none;
 }
 .customInput {

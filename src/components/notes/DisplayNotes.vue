@@ -2,14 +2,11 @@
   <li class="liCustom">
     <h2>{{ topic }}</h2>
     <h3>{{ category }}</h3>
-    <button @click="toggleDetails">
-      {{ detailsAreVisible ? 'Ukryj' : 'Pokaż' }} szczegóły
-    </button>
-    <ul v-if="detailsAreVisible" class="ulCustom">
-      <li class="liCustom">
+    <div class="ulCustom">
+      <p class="opis">
         <strong>Opis:</strong>
         {{ description }}
-      </li>
+      </p>
       <button style="margin:5px" @click="$emit('download', id, fileUploadName)">
         Pobierz
       </button>
@@ -48,7 +45,7 @@
           </div>
         </form>
       </ul>
-    </ul>
+    </div>
   </li>
 </template>
 
@@ -118,11 +115,10 @@ html {
 .liCustom {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: 1rem auto;
-  border-radius: 10px;
   padding: 1rem;
   text-align: center;
-  width: 90%;
-  max-width: 60rem;
+  width: 70%;
+  max-width: 70%;
   list-style-type: none;
 }
 h2 {
@@ -130,5 +126,9 @@ h2 {
   border-bottom: 4px solid #ccc;
   color: #003300;
   margin: 0 0 1rem 0;
+}
+.opis{
+    padding: 1rem;
+    text-align: left;
 }
 </style>
