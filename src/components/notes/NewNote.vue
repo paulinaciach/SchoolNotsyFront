@@ -53,7 +53,7 @@ export default {
       fd.append('Category', this.entredCatgory);
       fd.append('FormFile', this.selectedFile);
 
-      axios.post('https://schoolnotes.azurewebsites.net/api/Files/createFile', fd).then(
+      axios.post('https://schoolnotesappservicewindows.azurewebsites.net/api/files/createFile', fd).then(
         response => {
           console.log(response);
           alert('Notatka dodana!');

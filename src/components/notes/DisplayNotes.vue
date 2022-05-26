@@ -79,7 +79,7 @@ export default {
       fd.append('Description', this.enteredDescription);
       fd.append('Category', this.entredCatgory);
 
-      axios.put('https://schoolnotes.azurewebsites.net/api/Files/edit/' + id, fd).then(
+      axios.put('https://schoolnotesappservicewindows.azurewebsites.net/api/files/edit/' + id, fd).then(
         response => {
           console.log(response);
           alert('Notatka zmodyfikowana!');

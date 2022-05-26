@@ -185,13 +185,13 @@ export default {
   },
   methods: {
     pobierzZBazy() {
-      fetch('https://schoolnotes.azurewebsites.net/api/Files')
+      fetch('https://schoolnotesappservicewindows.azurewebsites.net/api/files')
         .then(response => response.json())
         .then(data => (this.notatki = data));
     },
     deleteNote(noteId) {
       axios
-        .delete('https://schoolnotes.azurewebsites.net/api/Files/delete/' + noteId)
+        .delete('https://schoolnotesappservicewindows.azurewebsites.net/api/files/delete/' + noteId)
         .then(response => {
           this.notatki = this.notatki.filter(item => item.id !== noteId);
           console.log(response);
@@ -199,7 +199,7 @@ export default {
     },
     downloadFile(fileID, fileUploadName) {
      axios({
-        url: 'https://schoolnotes.azurewebsites.net/api/Files/downloadFile/' + fileID,
+        url: 'https://schoolnotesappservicewindows.azurewebsites.net/api/files/downloadFile/' + fileID,
         method: 'GET',
         responseType: 'blob'
       }).then(response => {
