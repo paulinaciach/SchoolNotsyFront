@@ -117,8 +117,8 @@ html {
   margin: 1rem auto;
   padding: 1rem;
   text-align: center;
-  width: 70%;
-  max-width: 70%;
+  width: 75%;
+  max-width: 75%;
   list-style-type: none;
 }
 h2 {
