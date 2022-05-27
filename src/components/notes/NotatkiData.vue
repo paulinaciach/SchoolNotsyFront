@@ -243,8 +243,8 @@ export default {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   text-align: left;
-  width: 70%;
-  max-width: 70%;
+  width: 75%;
+  max-width: 75%;
   list-style-type: none;
 }
 .customInput {
@@ -252,7 +252,7 @@ export default {
   border: none;
   box-shadow: none;
   outline: none;
-  width: 80%;
+  width: 75%;
 }
 .radio-label {
   display: inline-block;
